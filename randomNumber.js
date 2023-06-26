@@ -9,9 +9,12 @@
 // guess.innerHTML = number;
 // console.log(number);
 
+
 let GuessNum  = document.getElementById("value")
 let Number = prompt("Enter Your Number between 1-10");
 GuessNum.innerHTML = `Your Number is ${Number}`
+
+
     // create  a promise construction
 
 const promise = new Promise((resolve , reject)=>{
