@@ -12,7 +12,7 @@
 
 let Number = prompt("Enter Your Number between 1-10");
 let GuessNum  = document.getElementById("value")
-GuessNum.innerHTML = `Your Number is : ${Number}`
+GuessNum.innerHTML = `Your Number is ${Number}`
 
 
     // create  a promise construction
